@@ -1,0 +1,17 @@
+extends ./layout.jade
+
+block scripts
+    script(src='./home.js')
+
+block title
+    title #{title}
+
+block content
+    .row
+        .col-xs-6.col-xs-offset-3
+            .input-group.messageSender
+                input(type="text" class="form-control" placeholder="Write a message...")
+                span.input-group-btn
+                    button(class="btn btn-default" type="button") Send
+
+

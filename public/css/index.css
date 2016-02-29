@@ -1,0 +1,47 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body {
+	background: black;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+#header img{
+    max-width: 100px;
+}
+
+.chatHolder{
+    border: solid #A29999 1px;
+    border-radius: 5px;
+    overflow: scroll;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.box {
+	position: absolute;
+    background-color: white;
+    border: 1px solid #000;
+    opacity: 1;
+	padding: 8px 12px 8px 12px;
+    box-shadow: 2px 2px 2px black;
+    z-index: 999;
+    font-weight: bold;
+}
+.box img { height: 20px; margin-right: 12px; }
+.container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    z-index: 0;
+}
+.video {
+    position: relative;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.i1 { /assets/icon/i_01.png }
