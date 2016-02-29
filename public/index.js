@@ -6,5 +6,5 @@
 var socket;
 
 $(document).ready(function(){
-    socket = io.connect('http://localhost:8080');
+    socket = io.connect('http://localhost:3000');
 });
