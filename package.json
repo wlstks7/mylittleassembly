@@ -7,5 +7,10 @@
         "express": "3.5.0",
         "jade": "1.11.0"
     },
-    "author": "frost.arte@gmail.com"
+    "author": "wlstks7@gmail.com",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "echo \"error\""
+    }
 }
