@@ -15,7 +15,8 @@ app.engine('jade', require('jade').__express);
 
 app.use(express.static(__dirname+'/public'));
 
-var io = socket.listen(app.listen(3000));
+var port = process.env.PORT || 3000;
+var io = socket.listen(app.listen(port));
 
 
 app.get('/', function(req, res){
