@@ -46,5 +46,5 @@ function floating(d){
     var html = '';
         html += '<div class="box i'+ino+'" style="top:'+getRandomInt(0,maxTop)+'px;left:'+getRandomInt(0,maxLeft)+'px" class="div"><img src="/assets/icon/i_'+ino+'.png" />'+d+'</div>';
     $('body').append(html);
-    $('.i'+ino).fadeOut(5000);
+    $('.i'+ino).fadeOut(10000);
 }
