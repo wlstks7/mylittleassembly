@@ -25,7 +25,14 @@ $(document).ready(function(){
             socket.emit('newMessage', {'message': input.val()});
         input.val('');
     });
-	$('body').prepend('<div class="container"><iframe width="100%" height="auto" class="video" src="https://www.youtube.com/embed/NAf3G5UQSYQ" frameborder="0" allowfullscreen></iframe></div>');
+    
+    $(".messageSender input").keydown(function (key) {
+        if (key.keyCode == 13) {
+            $('.btn-default').trigger('click');
+        }
+    });
+
+    $('body').prepend('<div class="container"><iframe width="100%" height="auto" class="video" src="https://www.youtube.com/embed/NAf3G5UQSYQ" frameborder="0" allowfullscreen></iframe></div>');
 });
 
 
