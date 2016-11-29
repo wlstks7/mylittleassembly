@@ -32,7 +32,7 @@ $(document).ready(function(){
         }
     });
 
-    $('body').prepend('<div class="container"><iframe width="100%" height="auto" class="video" src="https://www.youtube.com/embed/NAf3G5UQSYQ" frameborder="0" allowfullscreen></iframe></div>');
+    $('body').prepend('<div class="container"><iframe width="100%" height="auto" class="video" src="https://www.youtube.com/watch?v=Qeo0j5EsfOM" frameborder="0" allowfullscreen></iframe></div>');
 });
 
 
